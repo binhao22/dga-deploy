@@ -30,4 +30,4 @@ spec:
     spec:
       containers:
         - name: leaderboard
-          image: 420615923610.dkr.ecr.ap-northeast-2.amazonaws.com/dga-leaderboard:7
+          image: 420615923610.dkr.ecr.ap-northeast-2.amazonaws.com/dga-leaderboard:8
