@@ -1,2 +1,4 @@
 # dga-deploy
-배포용 레포
+DGA-PROJECT 게시판 CI/CD (ArgoCD)
+
+
