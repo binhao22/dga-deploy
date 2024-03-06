@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
         - name: leaderboard
-          image: 420615923610.dkr.ecr.ap-northeast-2.amazonaws.com/dga-leaderboard:16
+          image: 420615923610.dkr.ecr.ap-northeast-2.amazonaws.com/dga-leaderboard:17
           resources:
             limits:
               cpu: 250m
