@@ -19,7 +19,6 @@ metadata:
   name: search-deploy
   namespace: search
 spec:
-  replicas: 2
   selector:
     matchLabels:
       app: search
@@ -31,3 +30,8 @@ spec:
       containers:
         - name: search
           image: 420615923610.dkr.ecr.ap-northeast-2.amazonaws.com/dga-search:10
+          resources:
+            limits:
+              cpu: 250m
+            requests:
+              cpu: 50m
