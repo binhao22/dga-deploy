@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
         - name: search
-          image: 420615923610.dkr.ecr.ap-northeast-2.amazonaws.com/dga-search:11
+          image: 420615923610.dkr.ecr.ap-northeast-2.amazonaws.com/dga-search:12
           resources:
             limits:
               cpu: 250m
