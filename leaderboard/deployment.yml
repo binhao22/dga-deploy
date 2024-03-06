@@ -19,7 +19,6 @@ metadata:
   name: leaderboard-deploy
   namespace: leaderboard
 spec:
-  replicas: 2
   selector:
     matchLabels:
       app: leaderboard
@@ -31,3 +30,8 @@ spec:
       containers:
         - name: leaderboard
           image: 420615923610.dkr.ecr.ap-northeast-2.amazonaws.com/dga-leaderboard:12
+          resources:
+            limits:
+              cpu: 250m
+            requests:
+              cpu: 50m
