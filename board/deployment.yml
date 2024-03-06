@@ -30,8 +30,3 @@ spec:
       containers:
         - name: board
           image: 420615923610.dkr.ecr.ap-northeast-2.amazonaws.com/dga-board:92
-          resources:
-            limits:
-              cpu: 250m
-            requests:
-              cpu: 50m
