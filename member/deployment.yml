@@ -30,8 +30,3 @@ spec:
       containers:
         - name: member
           image: 420615923610.dkr.ecr.ap-northeast-2.amazonaws.com/dga-member:51
-          resources:
-            limits:
-              cpu: 250m
-            requests:
-              cpu: 50m
